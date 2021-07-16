@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/@fortawesome/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="node_modules/aos/dist/aos.css">
+    <link rel="stylesheet" href="src/css/style.css">
+    <title>About You</title>
+</head>
+<body>
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-transparent fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">About You</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#"><i class="fa fa-home"></i> Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="#info"><i class="fa fa-info"></i> Info</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#comp"><i class="fa fa-star"></i> Compétences</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#gallerie"><i class="fas fa-photo-video"></i> Gallerie</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#contact"><i class="fa fa-phone"></i> Contact</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+    </nav>
+    <div class="jumbtron">
+        <div id="bg"></div>
+        <div id="main-carousel" class="carousel carousel-light slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#main-carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#main-carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#main-carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active" data-bs-interval="10000" id="item-1">
+                <div class="carousel-caption">
+                    <h5>Qui suis-Je ?</h5>
+                    <p>
+                      Je m'appelle RANDRIANIRINA Mamy Mialisoa ,j'ai 19ans,
+                      je suis étudiante à l'Institut Supérieur Polythecnique de Madagascar,
+                      dans la filière Informatique Multi-media Technologie de l'Information
+                      de la télé-Communication et Intelligence Artificielle.
+                    </p>
+                </div>
+              </div>
+              <div class="carousel-item" data-bs-interval="2000" id="item-2">
+                <div class="carousel-caption">
+                  <h5>Qu'est ce que je veux ?</h5>
+                  <p>
+                    Je voudrais vous inviter à apprendre 
+                    à mieux me connaître à travers ce petit 
+                    porte-folio de manière assez original car il 
+                    est réalisé sous forme de FAQ. 
+                    J'espère que vous y prendrez du plaisir.
+                </p>
+                </div>
+              </div>
+              <div class="carousel-item" id="item-3">
+                <div class="carousel-caption">
+                  <h5>Où suis-je ?</h5>
+                  <p>
+                    Chez moi , entrain de manger sûrement.....Nan je rigole...vous
+                    pouvez me trouvez sûr Facebook et sur Gmail.en clickant sur contact
+                  </p>
+                </div>
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#main-carousel" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#main-carousel" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+        </div>
+    </div>
+    <div class="main-page">
+        <span id="info"></span>
+        <div data-aos="zoom-in" class="bg-light">
+            <br><br><br><br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 desc-middle" data-aos="fade-right">
+                        <img src="src/img/img1.jpg" alt="" id="avatar">
+                    </div>
+                    <div class="col-md-6 desc-middle text-center" data-aos="fade-left">
+                        <br><br>
+                        <h5><i class="fa fa-user"></i> Présentation</h5>
+                        <p>
+                          Je suis RANDRIANIRINA Mamy Mialisoa une petite 
+                          rêveuse de la classe IMTICIA3. J'adore lire et écrire, 
+                          je trouve que le temps le plus beau c'est le présent 
+                          (je n'aime ni la chaleur , ni la pluie, ni le froid mais j'adore le vent).
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <br><br>
+        </div>
+        <div class="bg-light" data-aos="zoom-in">
+            <br><br>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-6 desc-middle text-center" data-aos="fade-right">
+                        <br><br>
+                        <h5><i class="fa fa-heart"></i> Ce que je fais dans la vie</h5>
+                        <p>
+                          Je suis une petite fille , une fille,
+                          une sœur, une famille, une amie, une étudiante , 
+                          parfois je chante .hehe!
+                        </p>
+                    </div>
+                    <div class="col-md-6 desc-middle" data-aos="fade-left">
+                        <img src="src/img/img2.jpg" alt="" id="avatar">
+                    </div>
+                </div>
+            </div>
+            <br><br>
+        </div>
+        <span id="comp"></span>
+        <div class="text-white bg-dark" data-aos="zoom-in">
+          <br><br><br><br>
+          <div class="container">
+              <div class="row text-center d-flex justify-content-center">
+                  <div class="col-md-4" data-aos="flip-up">
+                    <h1>
+                      <i class="fa fa-map fa-2x"></i> 
+                    </h1>
+                    <h5>Qu'ai je accomplis ?</h5>
+
+                    <p>
+                      Pendant ces deux ans à l'ISPM on a réalisé deux projets...
+                      Un application mobile à but éducatif et un jeu de course.
+                      Car créer des jeux videos est aussi une des spécificité de notre 
+                      filière.
+                    </p>
+                  </div>
+                  <div class="col-md-4" data-aos="flip-up">
+                    <h1>
+                      <i class="fa fa-code fa-2x"></i>
+                    </h1>
+                    <h5>Ce que j'ai à dire sur la programmation.</h5>
+                    <p>
+                      J'ai des competence en Développement Web (HTML/CSS/Javascript).
+                      Et je sais dévolopper en Java et en C.
+                    </p>
+                  </div>
+                  <div class="col-md-4" data-aos="flip-up">
+                    <h1>
+                      <i class="fas fa-drafting-compass fa-2x"></i>
+                    </h1>
+                    <h5>Design</h5>
+                    <p>
+                      Je suis une passionnée de Design car j'aime et j'ai envie de faire de jolie
+                      chose avec mes doigts. 
+                      Et je voudrai exprimer cette envie avec le design.
+                    </p>
+                  </div>
+              </div>
+              <br><br>
+              <div class="row text-center d-flex justify-content-center">
+                <div class="col-md-3" data-aos="flip-up">
+                  <h1>
+                    <i class="fas fa-network-wired fa-2x"></i> 
+                  </h1>
+                  <h5>A propos de la Imtic ?</h5>
+
+                  <p>
+                    La IMTICIA C'est une des filières de l'ISPM , 
+                    elle regroupe des Artistes je dit
+                    artiste parce que nous travaillons beaucoup sur 
+                    l'image ...et l'apparence extérieur des projets
+                  </p>
+                </div>
+                <div class="col-md-3" data-aos="flip-up">
+                  <h1><i class="fa fa-star fa-2x"></i></h1>
+                  <h5>Pourquoi en Imtic?</h5>
+
+                  <p>
+                    J'ais choisi la filière IMTICIA surtout pour le Multimédia au début ,
+                    mais le Design me plaît énormément et  je doit reconnaître que
+                    l'ambiance est super dans cette filière.
+                  </p>
+                </div>
+              </div>
+              <br><br>
+              <div class="row text-center d-flex justify-content-center">
+                <div class="col-md-6" data-aos="flip-up">
+                  <h1>
+                    <i class="fas fa-camera fa-2x"></i>
+                  </h1>
+                  <h5>Photographie ?</h5>
+
+                  <p>
+                    Oui oui,j'aime la photographie.
+                    Parce que ça a un aspect magique quand on y pense.
+                    Le fait de pouvoir figer le temps dans une image est impressionnant.
+                    C'est un peu comme si on pouvais toucher un morceau de notre passée avec
+                    nos doigts.
+                  </p>
+                </div>
+                <div class="col-md-6" data-aos="flip-up">
+                  <h1>
+                    <i class="fas fa-pen fa-2x"></i>
+                  </h1>
+                  <h5>Où je me vois plus tard?</h5>
+                  <p>
+                    Surement en voyage quelque part dans le monde.
+                    Ou ici.
+                    Personne ne le sait mais je sais que je serai toujours bien 
+                    entourée.
+                  </p>
+                </div>
+              </div>
+          </div>
+          <br><br><br>
+        </div>
+        <span id="gallerie"></span>
+        <div class="bg-light" data-aos="zoom-in">
+          <br><br><br><br>
+          <div class="container text-center">
+              <h1><i class="fas fa-photo-video"></i> Gallerie</h1>
+              <br><br>
+              <div class="row">
+                <div class="col-md-6 lightbox" data-aos="flip-up" data-img="src/img/gallerie/img1.jpg">
+                  <img src="src/img/gallerie/splash/img1.jpg" class="shadow p-3 mb-5 bg-body rounded img-click">
+                </div>
+                <div class="col-md-6 lightbox" data-aos="flip-up" data-img="src/img/gallerie/img2.jpg">
+                  <img src="src/img/gallerie/splash/img2.jpg" class="shadow p-3 mb-5 bg-body rounded img-click">
+                </div>
+              </div>
+              <br><br>
+              <div class="row d-flex justify-content-center align-items-center">
+                <div class="col-sm-12 lightbox" data-aos="flip-up" data-img="src/img/gallerie/img3.jpg">
+                  <img src="src/img/gallerie/splash/img3.jpg" class="shadow p-3 mb-5 bg-body rounded img-click">
+                </div>
+              </div>
+              <br><br>
+              <div class="row">
+                <div class="col-md-6 lightbox" data-aos="flip-up" data-img="src/img/gallerie/img4.jpg">
+                  <img src="src/img/gallerie/splash/img4.jpg" class="shadow p-3 mb-5 bg-body rounded img-click">
+                </div>
+                <div class="col-md-6 lightbox" data-aos="flip-up" data-img="src/img/gallerie/img5.jpg">
+                  <img src="src/img/gallerie/splash/img5.jpg" class="shadow p-3 mb-5 bg-body rounded img-click">
+                </div>
+              </div>
+          </div>
+          <br><br>
+        </div>
+        <span id="contact"></span>
+        <div class="text-white bg-dark" data-aos="zoom-in">
+          <br><br><br><br>
+          <div class="container text-center">
+              <div>
+                <h1><i class="fa fa-phone"></i> Contact</h1>
+              </div>
+              <br><br><br>
+              <div class="row text-center d-flex justify-content-center">
+                <div class="col-md-4 link redirect-link" data-href="https://www.facebook.com" data-aos="flip-up">
+                    <h1>
+                      <i class="fab fa-facebook fa-2x"></i> 
+                    </h1>
+                    <h5>Facebook</h5>
+                </div>
+                <div class="col-md-4 link redirect-link" data-href="https://www.instagram.com" data-aos="flip-up">
+                    <h1>
+                      <i class="fab fa-instagram fa-2x"></i>
+                    </h1>
+                    <h5>Instagram</h5>
+                </div>
+                <div class="col-md-4 link redirect-link" data-href="https://www.messenger.com" data-aos="flip-up">
+                    <h1>
+                      <i class="fab fa-facebook-messenger fa-2x"></i>
+                    </h1>
+                    <h5>Messenger</h5>
+                </div>
+              </div>
+              <br><br><br><br>
+              <div class="row text-center d-flex justify-content-center">
+                <div class="col-md-3 link redirect-link" data-href="https://www.messenger.com" data-aos="flip-up">
+                  <h1>
+                    <i class="fab fa-github fa-2x"></i> 
+                  </h1>
+                  <h5>Github</h5>
+                </div>
+              </div>
+              <br><br>
+          </div>
+          <br><br><br><br><br>
+        </div>
+    </div>
+    <div id="tuto" class="text-center">
+      <h1>
+        <i class="fas fa-exclamation-triangle fa-2x"></i>
+      </h1>
+      <h1>Avertissement</h1>
+      <p>
+        Pour une meilleure Expérience Utilisateur,<br>
+        il est conseillé de naviguer sur un ordinateur.<br>
+        Ce porte-Folio est réalisé sous forme de FAQ et <br>
+        offre un meilleur aperçu de ce que je veux montrer de moi même <br>
+        en jouant les chansons que j'ai integré dans ma page. <br>
+        Bonne Visite!
+      </p>
+      <br>
+      <button id="begin">Commencer</button>
+    </div>
+    <div class="modal fade" id="modal-image" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog d-flex justify-content-center align-items-center">
+        <img id="lightbox-img" src="src/img/gallerie/img1.jpg" height="500">
+      </div>
+    </div>
+    <div class="media-player d-md-block text-white" id="media-player">
+      <div class="container">
+        <div class="row d-flex justify-content-center align-items-center">
+          <div class="col-sm-4">
+            <img src="src/img/img2.jpg" id="cover" class="album-art" />
+          </div>
+          <div class="col-sm-1 text-truncate desc-album" style="width: 100px;">
+            <small id="title">Title</small>
+            <br>
+            <small id="artist">Artiste</small>
+          </div>
+        </div>
+        <div class="row">
+          <div style="margin-top: 15px;" id="ctrl" class="col-sm-12">
+            <div id="ctrl-backward" class="ctrl">
+              <i class="fa fa-backward fa-2x"></i>
+            </div>
+            <div id="ctrl-play" class="ctrl">
+              <a id="play-icon" class="fa fa-play fa-2x"></a>
+            </div>
+            <div id="ctrl-pause" class="ctrl d-none">
+              <a id="pause-icon" class="fa fa-pause fa-2x"></a>
+            </div>
+            <div id="ctrl-forward"  class="ctrl">
+              <i class="fa fa-forward fa-2x"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+      <audio id="player"></audio>
+    </div>
+    <script src="node_modules/@fortawesome/fontawesome-free/js/all.min.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+    <script src="node_modules/moment/min/moment.min.js"></script>
+    <script src="node_modules/aos/dist/aos.js"></script>
+    <script src="src/js/script.js"></script>
+    <script>AOS.init();</script>
+    <script src="src/js/light-box.js"></script>
+    <script src="src/js/navbar-anim.js"></script>
+    <script src="src/js/media-player.js"></script>
+</body>
+</html>
